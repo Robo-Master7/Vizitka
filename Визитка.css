@@ -1,0 +1,151 @@
+body {
+    position: relative;
+      background: #54bcdc;
+      font-size: 14px;
+      color: #000;
+
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #54bcdc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 85%;
+      height: 85%;
+      object-fit: cover;
+    }
+
+.zag1{
+  font-size: 35px;
+  color:white;
+  text-align: center;
+}
+
+.prem{
+  display: flex;
+  left:3.2%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  top:38px;
+  width: 93.5%;
+  height:265px;  
+  border-radius: 25px; 
+}
+
+.foto1{
+  position: relative;
+  background-image:url("https://img.icons8.com/?size=1x&id=Wv3LuqL14IDf&format=png");
+  width:62px;
+  height:62px;
+  background-repeat:no-repeat; 
+  background-size: 100%;
+  left:-170px;
+  top:73.5px;
+}
+
+.text1{
+  position: relative;
+  font-size: 35px;
+  left:445px;
+  top:15px
+}
+
+.speed{
+  position: relative;
+  font-size: 23px;
+  left:-250px;
+  width:110px;
+  top:140.5px; 
+}
+
+.qual{
+  position: relative;
+  font-size: 23px;
+  left:-22px;
+  width:110px;
+  top:140.5px; 
+}
+
+.foto2{
+  position: relative;
+  background-image:url("https://img.icons8.com/?size=1x&id=99340&format=png");
+  width:62px;
+  height:62px;
+  background-repeat:no-repeat; 
+  background-size: 100%;
+  left:49px;
+  top:73.5px;
+}
+
+.foto3{
+  position: relative;
+  background-image:url("https://img.icons8.com/?size=1x&id=44458&format=png");
+  width:62px;
+  height:62px;
+  background-repeat:no-repeat; 
+  background-size: 100%;
+  left:279px;
+  top:86.5px;
+
+}
+
+.eval{
+  position: relative;
+  font-size: 23px;
+  left:200px;
+  width:110px;
+  top:140.5px;
+}
+
+.plus1{
+  position: relative;
+  background-color: #54bcdc;
+  width: 100%;
+  height:170px;
+}
+
+.zag{
+  font-size: 53px;
+  position: relative;
+  left:43%;
+  color:#F5952F;
+  top:22px;
+}
+
+.opi{
+  position: relative;
+  font-size: 23.5px;
+  color:white;
+  text-align: center;
+  width:895px;
+  left:193px;
+  top:25px;
+}
+
+.footer{
+  position: relative;
+  top:125px;
+  background-color: #3880ac;
+  border: 3px solid #0462ac;
+}
+
+.text4{
+  position: relative;
+  text-align: center;
+  color:white;
+  font-size:29px;
+  height: 50px;
+  top:10px; 
+}
