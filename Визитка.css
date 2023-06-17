@@ -1,10 +1,10 @@
 body {
-    position: relative;
-      background: #54bcdc;
-      font-size: 14px;
-      color: #000;
-
-    }
+  position: relative;
+  background: -webkit-linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
+  background: linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
+  font-size: 14px;
+  color: #000;
+}
 
     swiper-container {
       width: 100%;
@@ -14,7 +14,8 @@ body {
     swiper-slide {
       text-align: center;
       font-size: 18px;
-      background: #54bcdc;
+      background: -webkit-linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
+      background: linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -28,9 +29,11 @@ body {
     }
 
 .zag1{
+  position: relative;
   font-size: 35px;
   color:white;
   text-align: center;
+  bottom: 5px;
 }
 
 .prem{
@@ -38,7 +41,7 @@ body {
   left:3.2%;
   position: relative;
   background-color: rgb(255, 255, 255);
-  top:38px;
+  top:20px;
   width: 93.5%;
   height:265px;  
   border-radius: 25px; 
@@ -109,13 +112,6 @@ body {
   top:140.5px;
 }
 
-.plus1{
-  position: relative;
-  background-color: #54bcdc;
-  width: 100%;
-  height:170px;
-}
-
 .zag{
   font-size: 53px;
   position: relative;
@@ -148,4 +144,9 @@ body {
   font-size:29px;
   height: 50px;
   top:10px; 
+}
+
+.o_nas{
+  position: relative;
+  bottom: 57px;
 }
