@@ -277,6 +277,8 @@ button {
 .modal-col-text {
   flex: 1 1 auto;
   font-size: 18px;
+  border: 3px solid #0462ac;
+  padding: 25px;
 }
 
 .close {
@@ -292,8 +294,9 @@ button {
   text-decoration: none;
 }
 .vopros{
+  position: relative;
   display: flex;
-
+  left:35px;
   font-size:60px;
 }
 .buy {
