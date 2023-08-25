@@ -1,7 +1,7 @@
 body {
   position: relative;
   background: -webkit-linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
-  background: linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
+  background: linear-gradient(90deg, #0462ac,#3880ac,#b3c5cb);
   font-size: 14px;
   color: #000;
 }
@@ -9,6 +9,7 @@ body {
     swiper-container {
       width: 100%;
       height: 100%;
+      z-index: 1;
     }
 
     swiper-slide {
@@ -166,6 +167,7 @@ nav{
   text-align: center;
   background: -webkit-linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
   background: linear-gradient(90deg, #0462ac,#3880ac,#54bcdc);
+  z-index: 2;
 }
 nav a{
   position: relative;
@@ -296,7 +298,8 @@ button {
 }
 .buy {
   text-align: center;
-
+  color:white;
+  font-size: 42px;
 }
 
 .row {
@@ -339,4 +342,9 @@ button {
 .card-desc {
   color: #777;
   font-size: 14px;
+}
+
+.raw{
+  position: relative;
+  left:450px;
 }
